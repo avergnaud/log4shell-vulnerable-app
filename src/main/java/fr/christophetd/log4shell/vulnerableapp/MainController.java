@@ -19,4 +19,9 @@ public class MainController {
         return "Hello, world!";
     }
 
+    @GetMapping("/test")
+    public String test() {
+        return "TEST";
+    }
+
 }
